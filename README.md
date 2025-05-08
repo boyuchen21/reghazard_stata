@@ -1,6 +1,6 @@
 This readme file describe the three .ado written for the hazard estimator STATA packages.
 
-## 1. **simdata.ado**
+### simdata.ado
 
 **Purpose:**
 
@@ -18,7 +18,7 @@ This readme file describe the three .ado written for the hazard estimator STATA 
 
 ---
 
-## 2. **bin_hazard.ado**
+### bin_hazard.ado
 
 **Purpose:**
 
@@ -62,7 +62,7 @@ bin_hazard y grp, lower(3) upper(20) width(0.1)
 
 ---
 
-## 3. **reghazard.ado**
+### reghazard.ado
 
 **Purpose:**
 
