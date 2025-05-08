@@ -88,10 +88,10 @@ bin_hazard y grp, lower(3) upper(20) width(0.1)
 **Examples:**
 
 ```reghazard
-reghazard y //run without covariates
-reghazard y grp //run with covariates grp
-reghazard y, keepmax //include the max bin
-reghazard y, keepmin //include the min bin, i.e., bin [0, lower)
+reghazard //run without covariates
+reghazard grp //run with covariates grp
+reghazard, keepmax //include the max bin
+reghazard, keepmin //include the min bin, i.e., bin [0, lower)
 ```
 
 ### Extra Notes
